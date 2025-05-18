@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.dashboard-header{
+    padding: 32px 0;
+    position: relative;
+    background: #ff5200;
+    justify-content: center;
+}
+.dashborad-title{
+background: rgb(255, 82, 0);
+display: flex;
+flex-direction: column;
+-webkit-box-align: center;
+align-items: center;
+-webkit-box-pack: center;
+justify-content: center;
+padding: 64px 0px 32px;
+position: relative;
+}
+.dashboard-header-icon-left{
+    height: 450px!important;
+width: 250px!important;
+position: absolute;
+left: 0;
+top: 0;
+object-fit: cover;
+}
+.dashboard-title-icon-right{
+    height: 450px!important;
+width: 250px!important;
+position: absolute;
+right: 0;
+top: 0;
+object-fit: cover;
+}
+.dashboard-title-top{
+    display: flex;
+-webkit-box-align: center;
+align-items: center;
+-webkit-box-pack: justify;
+justify-content: space-between;
+padding: 0px 16px;
+order: 1;
+
+}
+.dashboard-title-buttom{
+    display: flex;
+-webkit-box-pack: center;
+justify-content: center;
+-webkit-box-align: center;
+align-items: center;
+margin: 24px auto 0px;
+order: 2;
+width: 100%;
+}
+.dashboard-title-top-header{
+    width: 60%;
+text-align: center;
+margin: 0px auto;
+padding-left: 12px;
+color: rgb(255, 255, 255);
+font-size: 48px;
+font-weight: 700;
+letter-spacing: -0.3px;
+line-height: 56px;
+}
+.dashboard-search-input{
+    padding-top: 0;
+    background-color: rgba(0,0,0,0);
+line-height: normal;
+border: none;
+outline: 0;
+width: 100%;
+margin: 0;
+box-shadow: none;
+box-sizing: border-box;
+border-radius: 0;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+font-weight: 500;
+border: none !important;
+}
